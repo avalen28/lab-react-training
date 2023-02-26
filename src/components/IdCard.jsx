@@ -2,7 +2,7 @@ const IdCard = (props) => {
   console.log(props);
   const { lastName, firstName, gender, height, birth, picture } = props;
   return (
-    <div className="id-card">
+    <div className="id-card card">
       <img
         src={picture}
         alt={`${firstName} profile`}

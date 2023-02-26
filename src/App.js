@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import IdCard from './components/IdCard';
+import Greetings from './components/Greetings';
 
 function App() {
   return (
@@ -30,6 +30,8 @@ function App() {
         birth={new Date('1968-07-14')}
         picture="https://www.lavanguardia.com/files/og_thumbnail/uploads/2020/02/05/5fa9031378b30.jpeg"
       />
+      <Greetings lang="de">Ludwig</Greetings>
+      <Greetings lang="fr">François</Greetings>
     </div>
   );
 }
