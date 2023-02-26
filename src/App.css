@@ -3,7 +3,8 @@
   padding: 0px;
   box-sizing: border-box;
 }
-h3 {
+h3,
+h4 {
   font-weight: 300;
 }
 h3 > span {
@@ -21,4 +22,30 @@ h3 > span {
   padding: 20px;
   border: 1px solid black;
   margin: 20px;
+}
+.driver-card {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: rgb(122 116 206);
+  border-radius: 15px;
+  border: 0px;
+  width: 90%;
+  justify-content: center;
+}
+.driver-card img {
+  width: 85px;
+  height: 85px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.driver-info {
+  color: antiquewhite;
+  padding-left: 30px;
+}
+.driver-info h3 {
+  font-weight: bold;
+}
+.stars > h1 {
+  font-weight: 100;
 }

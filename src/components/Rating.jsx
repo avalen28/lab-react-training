@@ -8,7 +8,7 @@ const Rating = (props) => {
   };
 
   return (
-    <div>
+    <div className="stars">
       <h1>{starFunc()}</h1>
     </div>
   );
