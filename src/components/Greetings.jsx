@@ -15,9 +15,9 @@ const Greetings = (props) => {
     }
   };
   return (
-    <div className="card">
+    <p className="card">
       {checkLanguage()} {children}
-    </div>
+    </p>
   );
 };
 export default Greetings;
