@@ -9,6 +9,7 @@ import CreditCard from './components/CreditCard';
 import Likebutton from './components/Likebutton';
 import ClickablePicture from './components/ClickablePicture';
 import Dice from './components/Dice';
+import Carousel from './components/Carousel';
 
 function App() {
   return (
@@ -119,7 +120,17 @@ function App() {
       {/* <ClickablePicture img="maxence.png" imgClicked="maxence-glasses.png" /> */}
 
       {/* iteration 10*/}
-      <Dice />
+      {/* <Dice /> */}
+
+      {/* iteration 11*/}
+      <Carousel
+        images={[
+          'https://randomuser.me/api/portraits/women/1.jpg',
+          'https://randomuser.me/api/portraits/men/1.jpg',
+          'https://randomuser.me/api/portraits/women/2.jpg',
+          'https://randomuser.me/api/portraits/men/2.jpg',
+        ]}
+      />
     </div>
   );
 }
