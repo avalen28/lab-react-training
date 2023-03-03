@@ -10,6 +10,7 @@ import Likebutton from './components/Likebutton';
 import ClickablePicture from './components/ClickablePicture';
 import Dice from './components/Dice';
 import Carousel from './components/Carousel';
+import NumbersTable from './components/NumbersTable';
 
 function App() {
   return (
@@ -123,14 +124,17 @@ function App() {
       {/* <Dice /> */}
 
       {/* iteration 11*/}
-      <Carousel
+      {/* <Carousel
         images={[
           'https://randomuser.me/api/portraits/women/1.jpg',
           'https://randomuser.me/api/portraits/men/1.jpg',
           'https://randomuser.me/api/portraits/women/2.jpg',
           'https://randomuser.me/api/portraits/men/2.jpg',
         ]}
-      />
+      /> */}
+
+      {/* iteration 12*/}
+      <NumbersTable limit={12} />
     </div>
   );
 }
