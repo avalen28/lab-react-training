@@ -11,6 +11,8 @@ import ClickablePicture from './components/ClickablePicture';
 import Dice from './components/Dice';
 import Carousel from './components/Carousel';
 import NumbersTable from './components/NumbersTable';
+import FaceBook from './components/FaceBook';
+import profiles from './data/berlin.json';
 
 function App() {
   return (
@@ -134,7 +136,10 @@ function App() {
       /> */}
 
       {/* iteration 12*/}
-      <NumbersTable limit={12} />
+      {/* <NumbersTable limit={12} /> */}
+
+      {/* iteration 13*/}
+      <FaceBook profiles={profiles} />
     </div>
   );
 }
