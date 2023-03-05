@@ -13,6 +13,7 @@ import Carousel from './components/Carousel';
 import NumbersTable from './components/NumbersTable';
 import FaceBook from './components/FaceBook';
 import SignupPage from './components/SignupPage';
+import RGBColorPicker from './components/ RGBColorPicker';
 
 function App() {
   return (
@@ -138,11 +139,14 @@ function App() {
       {/* iteration 12*/}
       {/* <NumbersTable limit={12} /> */}
 
-      {/* iteration 13*/}
+      {/* iteration 13 and 14*/}
       {/* <FaceBook /> */}
 
-      {/* iteration 14*/}
-      <SignupPage />
+      {/* iteration 15
+      <SignupPage /> */}
+
+      {/* iteration 16 */}
+      <RGBColorPicker />
     </div>
   );
 }
